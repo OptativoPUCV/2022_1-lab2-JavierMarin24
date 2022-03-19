@@ -191,3 +191,14 @@ list.c:89:13: error: request for member 'next' in something not a structure or u
 cc1.exe: all warnings being treated as errors
 Compilation failed
 9c14fd3
+sá., 19 de mar. de 2022 17:47:24: 
+ list.c | 11 +++++------
+ 1 file changed, 5 insertions(+), 6 deletions(-)
+In file included from test.c:5:0:
+test.c: In function 'pushFront':
+list.c:87:22: error: 'nuevo_nodo' is used uninitialized in this function [-Werror=uninitialized]
+     nuevo_nodo->data = data;
+     ~~~~~~~~~~~~~~~~~^~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+8594f05
