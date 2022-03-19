@@ -280,3 +280,14 @@ sá., 19 de mar. de 2022 19:40:18:
  1 file changed, 32 insertions(+), 6 deletions(-)
  tests:  0|0
 6aa9e1a
+sá., 19 de mar. de 2022 19:52:54: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+test.c: In function 'popCurrent':
+list.c:138:8: error: 'aux' is used uninitialized in this function [-Werror=uninitialized]
+     aux=createNode(aux);
+     ~~~^~~~~~~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+f1f661e
