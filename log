@@ -169,3 +169,13 @@ list.c:89:23: error: 'list' is a pointer; did you mean to use '->'?
                        ->
 Compilation failed
 a2f5dec
+sá., 19 de mar. de 2022 17:41:26: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:89:13: error: request for member 'next' in something not a structure or union
+         data.next=list->head;
+             ^
+Compilation failed
+d7edcb9
