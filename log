@@ -235,3 +235,8 @@ list.c:90:26: error: 'nuevo_nodo' may be used uninitialized in this function [-W
 cc1.exe: all warnings being treated as errors
 Compilation failed
 43ceeba
+sá., 19 de mar. de 2022 18:14:10: 
+ list.c | 12 +++++++-----
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+ tests:  0|0
+0ac4ecc
