@@ -21,3 +21,16 @@ list.c:32:10: note: previous declaration of 'dato' was here
           ^~~~
 Compilation failed
 9fb0188
+sá., 19 de mar. de 2022 16:33:24: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'createList':
+list.c:33:9: error: redeclaration of 'dato' with no linkage
+   List* dato = (List*) malloc (sizeof(List));
+         ^~~~
+list.c:32:11: note: previous declaration of 'dato' was here
+     List *dato;
+           ^~~~
+Compilation failed
+bec436b
