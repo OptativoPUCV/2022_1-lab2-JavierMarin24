@@ -320,3 +320,9 @@ sá., 19 de mar. de 2022 20:07:37:
  tests:  11|1
 total_score: 55/70
 c3d954a
+sá., 19 de mar. de 2022 20:08:23: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  11|1
+total_score: 55/70
+16dab39
