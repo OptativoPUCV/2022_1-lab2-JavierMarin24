@@ -291,3 +291,8 @@ list.c:138:8: error: 'aux' is used uninitialized in this function [-Werror=unini
 cc1.exe: all warnings being treated as errors
 Compilation failed
 f1f661e
+sá., 19 de mar. de 2022 19:54:36: 
+ list.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|0
+c074a02
