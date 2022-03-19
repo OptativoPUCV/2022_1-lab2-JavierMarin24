@@ -30,7 +30,7 @@ Node * createNode(void * data) {
 
 List * createList() {
     
-  List* dato = (List*) calloc (List*sizeof(List));
+  List* dato = (List*) malloc (sizeof(List));
      return dato;
 }
 
