@@ -77,3 +77,16 @@ sá., 19 de mar. de 2022 16:37:25:
  tests:  4|5
 total_score: 15/70
 dc09755
+sá., 19 de mar. de 2022 16:45:03: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'createList':
+list.c:33:9: error: redefinition of 'dato'
+   List* dato = (List*) malloc (sizeof(List));
+         ^~~~
+list.c:32:11: note: previous definition of 'dato' was here
+     List *dato=NULL;
+           ^~~~
+Compilation failed
+88cf7cc
