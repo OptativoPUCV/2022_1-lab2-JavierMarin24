@@ -132,3 +132,26 @@ sá., 19 de mar. de 2022 17:26:15:
  tests:  9|3
 total_score: 35/70
 a856a9b
+sá., 19 de mar. de 2022 17:39:10: 
+ list.c | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:85:10: error: 'data' redeclared as different kind of symbol
+     Node data;
+          ^~~~
+list.c:84:36: note: previous definition of 'data' was here
+ void pushFront(List * list, void * data) {
+                                    ^~~~
+list.c:86:19: error: 'list' is a pointer; did you mean to use '->'?
+     data.next=list.head;
+                   ^
+                   ->
+list.c:89:25: error: incompatible types when assigning to type 'Node * {aka struct Node *}' from type 'Node {aka struct Node}'
+         list->head->prev=data;
+                         ^
+list.c:93:15: error: incompatible types when assigning to type 'Node * {aka struct Node *}' from type 'Node {aka struct Node}'
+     list->head=data;
+               ^
+Compilation failed
+d7a4640
