@@ -8,3 +8,16 @@ sá., 19 de mar. de 2022 16:32:03:
  tests:  4|5
 total_score: 15/70
 0bca006
+sá., 19 de mar. de 2022 16:33:10: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+list.c: In function 'createList':
+list.c:33:9: error: conflicting types for 'dato'
+   List* dato = (List*) malloc (sizeof(List));
+         ^~~~
+list.c:32:10: note: previous declaration of 'dato' was here
+     List dato;
+          ^~~~
+Compilation failed
+9fb0188
