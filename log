@@ -224,3 +224,14 @@ list.c:87:22: error: 'nuevo_nodo' is used uninitialized in this function [-Werro
 cc1.exe: all warnings being treated as errors
 Compilation failed
 2e79714
+sá., 19 de mar. de 2022 17:50:08: 
+ list.c | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+test.c: In function 'pushFront':
+list.c:90:26: error: 'nuevo_nodo' may be used uninitialized in this function [-Werror=maybe-uninitialized]
+         nuevo_nodo->data = data;
+         ~~~~~~~~~~~~~~~~~^~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+43ceeba
