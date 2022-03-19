@@ -155,3 +155,17 @@ list.c:93:15: error: incompatible types when assigning to type 'Node * {aka stru
                ^
 Compilation failed
 d7a4640
+sá., 19 de mar. de 2022 17:41:14: 
+ list.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:89:13: error: request for member 'next' in something not a structure or union
+         data.next=list.head;
+             ^
+list.c:89:23: error: 'list' is a pointer; did you mean to use '->'?
+         data.next=list.head;
+                       ^
+                       ->
+Compilation failed
+a2f5dec

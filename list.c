@@ -82,10 +82,11 @@ void * prevList(List * list) {
 }
 
 void pushFront(List * list, void * data) {
-    Node data;
-    data.next=list.head;
+    
+    
     if(list->head != NULL)
     {
+        data.next=list.head;
         list->head->prev=data;
         
         
