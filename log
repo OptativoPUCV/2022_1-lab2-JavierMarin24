@@ -34,3 +34,9 @@ list.c:32:11: note: previous declaration of 'dato' was here
            ^~~~
 Compilation failed
 bec436b
+sá., 19 de mar. de 2022 16:33:38: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|5
+total_score: 15/70
+fa32755
