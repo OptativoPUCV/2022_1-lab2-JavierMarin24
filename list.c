@@ -29,18 +29,39 @@ Node * createNode(void * data) {
 }
 
 List * createList() {
-     return NULL;
+  List* dato = (List*) malloc (sizeof(List));
+     return dato;
 }
 
 void * firstList(List * list) {
+  if(list->head != NULL){
+    list->current= list->head;
+  }
+  else
+  {
     return NULL;
+  }
+ 
+    return list->head->data;
 }
 
 void * nextList(List * list) {
+  if(list->current == NULL)
+  {
     return NULL;
+  }
+  if(list->current->next != NULL){
+     list->current=list->current->next;
+    }
+  else{
+    return NULL;
+  }
+    return list->current->data;
 }
 
 void * lastList(List * list) {
+  /*La primera retorna el dato del último elemento en la lista y actualiza el current al nodo correspondiente. */
+ 
     return NULL;
 }
 
