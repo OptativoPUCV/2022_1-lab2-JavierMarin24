@@ -90,3 +90,9 @@ list.c:32:11: note: previous definition of 'dato' was here
            ^~~~
 Compilation failed
 88cf7cc
+sá., 19 de mar. de 2022 16:46:14: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|5
+total_score: 15/70
+c8ec1a3

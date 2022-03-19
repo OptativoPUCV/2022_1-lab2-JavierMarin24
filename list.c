@@ -29,7 +29,7 @@ Node * createNode(void * data) {
 }
 
 List * createList() {
-    List *dato=NULL;
+    
   List* dato = (List*) malloc (sizeof(List));
      return dato;
 }
