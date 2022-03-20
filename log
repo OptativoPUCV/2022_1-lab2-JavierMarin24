@@ -403,3 +403,15 @@ list.c:138:8: error: statement with no effect [-Werror=unused-value]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 b5869a0
+do., 20 de mar. de 2022  1:39:00: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:138:5: error: dereferencing 'void *' pointer [-Werror]
+     *aux==NULL;
+     ^~~~
+list.c:138:5: error: void value not ignored as it ought to be
+cc1.exe: all warnings being treated as errors
+Compilation failed
+9e97965
