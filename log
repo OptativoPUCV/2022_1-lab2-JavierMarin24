@@ -380,3 +380,9 @@ do., 20 de mar. de 2022  1:10:25:
  tests:  11|1
 total_score: 55/70
 1c45380
+do., 20 de mar. de 2022  1:13:20: 
+ list.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+ tests:  11|1
+total_score: 55/70
+06168d9
