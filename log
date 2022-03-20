@@ -392,3 +392,14 @@ do., 20 de mar. de 2022  1:37:41:
  tests:  11|1
 total_score: 55/70
 86aa196
+do., 20 de mar. de 2022  1:38:48: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:138:8: error: statement with no effect [-Werror=unused-value]
+     aux==NULL;
+        ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+b5869a0
