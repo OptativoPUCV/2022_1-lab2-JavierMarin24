@@ -142,6 +142,7 @@ void * popCurrent(List * list) {
         list->current->next->prev=list->current->prev;
         aux=list->current;
         free(list->current);
+        return aux;
        
     }
     else{
@@ -152,6 +153,7 @@ void * popCurrent(List * list) {
            list->tail=list->current->prev;
             list->current->prev->next=NULL;
             free(list->current);
+            return aux;
 
         }
         else{
@@ -162,6 +164,7 @@ void * popCurrent(List * list) {
                 list->current->next->prev=NULL;
                 
                 free(list->current);
+                return aux;
             }
             else{
                 list=NULL;
@@ -170,8 +173,7 @@ void * popCurrent(List * list) {
         }
 
     }
-    return aux;
-    return NULL;
+   
 }
 
 void cleanList(List * list) {
