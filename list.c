@@ -170,7 +170,7 @@ void * popCurrent(List * list) {
         }
 
     }
-    return *aux;
+    return aux;
     return NULL;
 }
 
