@@ -134,7 +134,7 @@ void * popBack(List * list) {
 }
 
 void * popCurrent(List * list) {
-    Node *aux;
+    void *aux;
     //aux = createNode(NULL);
     if(list == NULL) return NULL;
     if(list->head == NULL) return NULL;
